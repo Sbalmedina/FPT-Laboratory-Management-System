@@ -1,5 +1,7 @@
 # Forest Product Laboratory Management System
-A hospital management system using nodejs , express , mysql , ejS
+
+
+This project was inspired by [SHAHID AFRIDI ZIHAD]([https://github.com/s-a-zhd]) and is a modified version of their original project.
 
 Pages List:
 

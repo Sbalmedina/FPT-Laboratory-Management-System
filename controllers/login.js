@@ -4,20 +4,16 @@ var mysql =require('mysql');
 var session = require ('express-session');
 var router = express.Router();
 var bodyParser = require('body-parser');
-var db = require.main.require ('./models/db_controller');
 var  sweetalert = require('sweetalert2');
 const { check, validationResult } = require('express-validator');
 
-
-
+var db = require.main.require ('./models/db_controller');
 
 router.get('/', function(req ,res){
-
     res.render('login.ejs');
 });
 
 var con = mysql.createConnection({
-
     host : 'localhost',
     user : 'root',
     password : '',
@@ -25,11 +21,9 @@ var con = mysql.createConnection({
 });
 
 router.use(session({
-
     secret: 'secret',
     resave : true ,
     saveUninitialized : true 
-
 }));
 
 
@@ -80,3 +74,5 @@ router.post('/',[
 });
 
 module.exports = router;
+
+//hello may update dito

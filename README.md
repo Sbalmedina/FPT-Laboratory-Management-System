@@ -1,5 +1,3 @@
-# Forest Product Laboratory Management System
-
 
 This project was inspired by [SHAHID AFRIDI ZIHAD](https://github.com/s-a-zhd) and is a modified version of their original project.
 
